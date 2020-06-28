@@ -36,6 +36,7 @@ h3 {
 
 .profile {
   margin-bottom: 50px;
+
 }
 
 .middle-container {}
@@ -154,9 +155,4 @@ hr {
   border-color: grey;
   width: 30%;
   border-width: 5px;
-}
-
-.intro
-{
-  text-align: justify;
 }
