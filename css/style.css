@@ -89,6 +89,8 @@ h3 {
 
 .footer_para {
   margin-top: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.6rem;
 }
 
 .skill-row {
@@ -152,4 +154,9 @@ hr {
   border-color: grey;
   width: 30%;
   border-width: 5px;
+}
+
+.intro
+{
+  text-align: justify;
 }
