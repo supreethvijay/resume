@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  font-size: 562.5%;
+  /*1% -- 16px ,90px -- 90/16%= 562.5 */
+  /* 1em -- 1M, 1em - 16px , 16px -- 100%* 90px=5.625em*/
+}
+
+/*when font size using em or % is used font size is increased dynamically*/
+/*Whenever we use % or em the size will get inherited from parent, that if body tag has 5% and h1 is 10% then h1 font size will be more than 10%*/
+/*To avoid the previous issue we use rem that 16rem which will ignore upstream changes*/
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.profile {
+  margin-bottom: 50px;
+}
+
+.middle-container {}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.contact-me {
+  display: inline-block;
+  width: 50%;
+  padding-bottom: 2%;
+}
+
+.skill_img {
+  width: 13%;
+  display: inline-block;
+}
+
+.headings {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.cloud_top {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.cloud_bottom {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.footer-link {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #11999E;
+}
+
+.footer_para {
+  margin-top: 40px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: justify;
+  line-height: 2;
+}
+
+.logo_wipro {
+  width: 25%;
+  float: left;
+  margin-right: 40px;
+}
+
+.logo_infy {
+  width: 25%;
+  float: right;
+  margin-left: 40px;
+}
+
+.btn {
+  margin: 45px auto 0 auto;
+  width: 20%;
+
+}
+
+.btn:hover .divip {
+  display: inline-block;
+
+
+}
+
+.divip {
+  display: none;
+  background-color: #66BFBF;
+  color: white;
+margin: 0 85% 0 85%;
+width:70%;
+text-align: center;
+border-radius: 10px;
+
+}
+.contact {
+  text-decoration: none;
+  background-color: #11999E;
+  color: white;
+  border-radius: 50px;
+  padding: 20px 20px;
+
+}
+
+.contact:hover {
+  background-color: #66BFBF;
+  color: black;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  width: 30%;
+  border-width: 5px;
+}
